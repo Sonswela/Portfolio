@@ -75,6 +75,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Main.html" />
+    <Content Include="SafeNetCode.PNG" />
+    <Content Include="StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

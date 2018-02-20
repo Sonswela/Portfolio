@@ -1,0 +1,70 @@
+﻿body {
+}
+.content {
+    padding: 3% 7% 3% 7%;
+    background-color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16%;
+    grid-template-areas:
+        "safeNet safeNetPicture safeNetPicture"
+        ". sourceControl sourceControl"
+        "htmlCSS htmlCSS ."
+        ". javaScript javaScript"
+        "mvc mvc ."
+        ". dataBase dataBase";
+
+}
+.safeNet {
+    grid-area: safeNet;
+    text-align: center;
+}
+.safeNetPicture {
+    grid-area: safeNetPicture;
+}
+#safeNetPic {
+    width: 100%;
+    height: auto;
+}
+.sourceControl {
+    grid-area: sourceControl;
+    text-align: center;
+}
+.htmlCSS {
+    grid-area: htmlCSS;
+    text-align: center;
+}
+.javaScript {
+    grid-area: javaScript;
+    text-align: center;
+}
+.mvc {
+    grid-area: mvc;
+    text-align: center;
+}
+.dataBase {
+    grid-area: dataBase;
+    text-align: center;
+}
+#white {
+    background-color: #FBFEF9;
+}
+#black {
+    background-color: #191923;
+}
+#blue {
+    background-color: #0E79B2;
+}
+#red {
+    background-color: #BF1363;
+}
+#gold {
+    background-color: #F39237;
+}
+.text {
+    text-align: center;
+    color: #FBFEF9;
+    font-size: 24px;
+}
